@@ -1,2 +1,2 @@
-# angularTemplate
+# Angular Template
 Angular Template
