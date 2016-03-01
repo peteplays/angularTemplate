@@ -1,4 +1,7 @@
 module.exports = angular.module('angTemplate', [])
-  .directive('appDirective', require('./app.directive'))
-  .controller('appController', require('./app.controller'))
+  .component('myComponent', {
+    templateUrl: '/src/app.html',
+    controller: require('./app.controller')
+  })
+
 ;

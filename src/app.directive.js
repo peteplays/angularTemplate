@@ -4,11 +4,9 @@ module.exports = function() {
   return {
     restrict: 'AE',
     replace: true,
-    template: require('./app.html'),
+    template: '/src/app.html',
     controller: 'appController',
-    link: function(scope, element, attrs) {
-
-    }
+    transclude: true
   };
 
 };
