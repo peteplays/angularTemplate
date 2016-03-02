@@ -4,11 +4,13 @@ Angular Bootstrap template seed
 ## Install
 clone repo
 
+in terminal run the following
+
 `npm instal wzrd -g` [wzrd](https://github.com/maxogden/wzrd)
 
 `npm install`
 
-run `wzrd app.js` in terminal
+`wzrd app.js`
 
 wzrd will display `localhost:****`
 
